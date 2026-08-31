@@ -587,7 +587,7 @@ There are two problems that are arising: selection of $\sigma$ and $t$. For othe
 \chapter{Diffusion Posterior Sampling}
 
 \section{Preliminaries}
-Now that we have a trained score model, we want to generate samples based on that. We get our inspiration from diffusion posterior sampling, which is used in noisy inverse problems. In such case, we want to get an estimate of the clean images when conditioned on the noisy observation \cite{chung2024diffusionposteriorsamplinggeneral}. The paper uses discrete denoising process, this work tries to implement Euler - Maruyama process, discussed in \cite{song2021scorebasedgenerativemodelingstochastic}
+Now that we have a trained score model, we want to generate samples based on that. We get our inspiration from diffusion posterior sampling, which is used in noisy inverse problems. In such case, we want to get an estimate of the clean images when conditioned on the noisy observation \cite{chung2024diffusionposteriorsamplinggeneral}. The paper uses discrete denoising process, this work tries to implement Euler - Maruyama process, discussed in \cite{song2021score}.
 \section{Diffusion Posterior Sampling}
 We first consider an inverse problem of the form
 \begin{equation}
